@@ -1,5 +1,9 @@
 h1 {
     color: navy;
+    font-size: 2vw;
+    text-transform: uppercase;
+	font-family: 'Playfair Display', serif;
+    line-height: 0.8;
 }
 
 .flex-container {
@@ -12,7 +16,30 @@ h1 {
 
 .flex-item {
   padding: 5px;
-  font-weight: bold;
-  font-size: 3em;
   text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: Lavender;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: navy;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+nav li a:hover:not(.active) {
+    background-color: WhiteSmoke;
 }
