@@ -7,16 +7,21 @@ h1 {
 }
 
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .flex-item {
-  padding: 5px;
-  text-align: center;
+    padding: 5px;
+    text-align: center;
+}
+
+.pull-right {
+    display: flex; 
+    margin-left: auto;
 }
 
 nav ul {
